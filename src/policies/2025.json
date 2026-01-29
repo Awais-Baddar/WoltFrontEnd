@@ -1,0 +1,17 @@
+{
+  "currency": "EUR",
+  "baseFeeCents": 160,
+  "distanceTiers": [
+    { "upToMeters": 800, "feeCents": 120 },
+    { "upToMeters": 1600, "feeCents": 240 },
+    { "upToMeters": 3000, "feeCents": 420 }
+  ],
+  "maxDeliveryFeeCents": 950,
+  "smallOrder": { "enabled": true, "thresholdCents": 2500 },
+  "items": {
+    "enabled": true,
+    "perItemFeeCents": 15,
+    "bulkThreshold": 10,
+    "bulkFeeCents": 150
+  }
+}
